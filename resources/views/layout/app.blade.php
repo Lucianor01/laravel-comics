@@ -17,10 +17,15 @@
 
 <body>
 
-   @include('partials.header')
+    @include('partials.header')
 
 
-   @include('partials.footer')
+    <main>
+        @include('partials.jumbotron')
+        @yield('content')
+    </main>
+
+    @include('partials.footer')
 
 </body>
 

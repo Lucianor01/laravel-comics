@@ -9,9 +9,10 @@ header {
             justify-content: flex-end;
             align-items: center;
 
-            h2 {
+            a {
                 margin-bottom: 0;
                 font-size: 14px;
+                text-decoration: none;
                 color: #ffffff;
 
                 span {
@@ -22,11 +23,10 @@ header {
         }
     }
 
-
     nav {
 
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         padding: 20px;
 
