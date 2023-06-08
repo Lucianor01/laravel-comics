@@ -16,7 +16,7 @@
                     <a href="#"><strong>CHARACTERS</strong></a>
                 </li>
                 <li>
-                    <a href="#"><strong>COMICS</strong></a>
+                    <a class="active" href="#"><strong>COMICS</strong></a>
                 </li>
                 <li>
                     <a href="#"><strong>MOVIES</strong></a>

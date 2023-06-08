@@ -1,5 +1,9 @@
 @extends('layout.app')
 
+@section('titlePage')
+    Comics DC
+@endsection
+
 @section('content')
     {{-- ! SECTION 1 HOME --}}
     <section id="sectionCSeries">
