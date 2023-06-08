@@ -1,4 +1,10 @@
 <header>
+    <div id="section-sites">
+        <div class="container container-sites p-2">
+            <h2 class="me-5">DC POWER&#8480; VISA&#174;</h2>
+            <h2>ADDITIONAL DC SITES <span>&#9662;</span></h2>
+        </div>
+    </div>
     <nav>
         <div>
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo">

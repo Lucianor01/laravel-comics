@@ -1,4 +1,28 @@
 header {
+
+    #section-sites {
+
+        background-color: #0282f9;
+
+        .container-sites {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            h2 {
+                margin-bottom: 0;
+                font-size: 14px;
+                color: #ffffff;
+
+                span {
+                    font-size: 15px;
+                }
+            }
+
+        }
+    }
+
+
     nav {
 
         display: flex;

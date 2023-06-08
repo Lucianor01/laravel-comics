@@ -1,12 +1,12 @@
 footer {
-    background-image: url(../../public/img/footer-bg.jpg);
+    background-image: url("/resources/img/footer-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #7c7c7c;
 
     .section_1 {
 
-        background-image: url(../../public/img/dc-logo-bg.png);
+        background-image: url("/resources/img/dc-logo-bg.png");
         background-repeat: no-repeat;
         background-size: 38%;
         background-position: right 10% bottom 45%;
@@ -14,6 +14,7 @@ footer {
         .container_lista {
 
             min-width: 43%;
+            max-width: 55%;
 
             h2 {
                 font-size: 25px;

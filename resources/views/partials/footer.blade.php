@@ -1,8 +1,8 @@
 <footer>
     <!--? SECTION FOOTER 1 -->
     <section class="p-4 section_1">
-        <div class="container-fluid d-flex position-relative">
-            <div class="row">
+        <div class="container d-flex position-relative">
+            <div class="row container_lista">
                 <!--? LISTA DC COMICS -->
                 <div class="col-4">
                     <h2 class="text-light">DC COMICS</h2>
@@ -29,6 +29,17 @@
                             <a href="#">News</a>
                         </li>
                     </ul>
+                    <div>
+                        <h2 class="text-light">SHOP</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Shop DC</a>
+                            </li>
+                            <li>
+                                <a href="#">Shop DC Collectibles</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <!--? LISTA DC -->
                 <div class="col-4">
@@ -90,27 +101,19 @@
                         </li>
                     </ul>
                 </div>
-                <!--? LISTA SHOP -->
-                <div class="col-4">
-                    <h2 class="text-light">SHOP</h2>
-                    <ul>
-                        <li>
-                            <a href="#">Shop DC</a>
-                        </li>
-                        <li>
-                            <a href="#">Shop DC Collectibles</a>
-                        </li>
-                    </ul>
+                <div>
+                    <p class="mb-0">All Site Content TM and &copy; 2020 Entertainment, unless otherwise
+                        <a href="#" class="text-decoration-none">noted here.</a> All rights reserved.
+                    </p>
+                    <a href="#" class="text-decoration-none">Cookies Settings</a>
                 </div>
-            </div>
-            <div class="img_footer">
-                <img src="../../public/img/dc-logo-bg.png" alt="">
+
             </div>
         </div>
     </section>
     <!--? SECTION FOOTER 2 -->
     <section class="section_2">
-        <div class="container-fluid d-flex justify-content-between align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
             <div>
                 <button type="button" class="p-2">SIGN-UP NOW!</button>
             </div>
