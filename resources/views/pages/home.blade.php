@@ -7,7 +7,7 @@
             <div id="titleCS" class="position-absolute">
                 <h3>CURRENT SERIES</h3>
             </div>
-            <div class="container py-5 pb-4">
+            <div class="container pt-5 pb-4">
                 <div class="row">
                     @foreach ($comics as $elem)
                         <div class="col-2">
