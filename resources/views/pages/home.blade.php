@@ -15,8 +15,8 @@
                 <div class="row">
                     @foreach ($comics as $elem)
                         <div class="col-2">
-                            <a href="#">
-                                <img src="{{ $elem['thumb'] }}" :alt="{{ $elem['title'] }}" class="pb-3">
+                            <a href="{{ route('details', ['link' => $elem['link']]) }}">
+                                <img src="{{ $elem['thumb'] }}" alt="{{ $elem['title'] }}" class="pb-3">
                                 <h4 class="text-light mb-5">{{ $elem['title'] }}</h4>
                             </a>
                         </div>

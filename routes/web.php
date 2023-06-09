@@ -21,3 +21,16 @@ Route::get('/', function () {
 
     return view('pages.home', compact('title', 'comics'));
 })->name('home');
+
+Route::get('/details/{link}', function ($link) {
+
+    $title = 'Comics DC | Details';
+
+    $linkComics = config('comics.comics');
+
+    $arrayComics = array_filter($linkComics, fn ($linkComics) => $linkComics['link'] === $link);
+
+    $singleComics = $arrayComics[array_key_first($arrayComics)];
+
+    return view('pages.details', compact('title', 'singleComics'));
+})->name('details');
