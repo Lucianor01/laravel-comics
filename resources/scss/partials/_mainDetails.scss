@@ -23,6 +23,7 @@ main {
             }
 
             .price {
+
                 background-color: #55ba59;
 
                 .c-green {
@@ -32,12 +33,46 @@ main {
             }
 
             .right-container {
+
                 h3 {
                     font-size: 15px;
                 }
             }
 
+
+        }
+
+    }
+
+    #section-details-2 {
+
+        padding-bottom: 9.3rem;
+        background-color: #f6f6f6;
+
+        h4 {
+            color: #003f5e;
+        }
+
+        h5 {
+            font-size: 18px;
+            color: #003f5e;
+        }
+
+        p {
+            font-weight: 500;
+            color: #0cadde;
+        }
+
+        span {
+            font-weight: 500;
+        }
+
+        .container-button-home {
+
+            margin-top: 8rem;
+
             .button-home {
+
                 padding: 10px 60px;
                 color: white;
                 background-color: #0282f9;
@@ -53,11 +88,26 @@ main {
 
     }
 
-    #section-details-2 {
+    #section-details-3 {
+
         background-color: #f6f6f6;
 
-        h4 {
-            color: #003f5e;
+        .container-card-sd3 {
+
+            .col-3 {
+
+                h4 {
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: #acb1ba;
+                }
+
+                .card-img-sd3 {
+                    width: 50px;
+                    filter: brightness(0.7);
+                }
+            }
         }
+
     }
 }
